@@ -1,0 +1,23 @@
+{
+  "description": "Color block test",
+  "manifest_version": 2,
+  "name": "Color Block test",
+  "version": "0.1",
+  "homepage_url": "https://www.sautest.com/web-add-on",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "theme_icons": [{
+        "light": "icons/beasts-32-light.png",
+        "dark": "icons/beasts-32.png",
+        "size": 32
+    }],
+    "default_title": "Color test for Web",
+    "default_popup": "popup/choose_color.html"
+  }
+}
